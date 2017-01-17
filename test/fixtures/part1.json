@@ -1,0 +1,33 @@
+{
+  "id": "/Datasource",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "primary key"
+    },
+    "tablename": {
+      "type": "string",
+      "description": "table name"
+    },
+    "url": {
+      "type": "string",
+      "description": "location of original resource"
+    },
+    "name": {
+      "type": "string",
+      "description": "human readable name"
+    },
+    "headers": {
+      "type": "array",
+      "items": {
+        "$ref": "/TableHeader"
+      }
+    }
+  },
+  "required": [
+    "tablename",
+    "url"
+  ],
+  "additionalProperties": false
+}

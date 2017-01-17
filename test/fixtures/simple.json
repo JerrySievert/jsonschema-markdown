@@ -1,0 +1,20 @@
+{
+  "id": "Test Title",
+  "description": "A Description",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "value"
+  ]
+}

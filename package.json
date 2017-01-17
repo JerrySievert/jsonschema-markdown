@@ -1,0 +1,33 @@
+{
+  "name": "jsonschema-markdown",
+  "version": "1.0.0",
+  "description": "Creates Markdown from JSON-Schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "json",
+    "jsonschema",
+    "json-schema",
+    "markdown"
+  ],
+  "author": "Jerry Sievert <code@legitimatesounding.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JerrySievert/jsonschema-markdown.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-shell": "^0.5.2",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}

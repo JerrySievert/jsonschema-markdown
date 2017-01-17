@@ -1,0 +1,18 @@
+{
+  "id": "/TableHeader",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string"
+    },
+    "inferred_type": {
+      "type": "string"
+    },
+    "override_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "label"
+  ]
+}
